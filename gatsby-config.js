@@ -3,7 +3,7 @@ module.exports = {
       title: `El blog de Erick`,
       author: {
           name: `Erick Ruiz`,
-          summary: `Se constante en lo que haces, nunca te rindas hasta conseguir el objetivo.`,
+          summary: `Sé constante en lo que haces, nunca te rindas hasta conseguir el objetivo.`,
       },
       description: `A starter blog demonstrating what Gatsby can do.`,
       siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
