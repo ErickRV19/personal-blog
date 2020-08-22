@@ -16,8 +16,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
-      />
-      <article>
+      />{" "}
+      <article id="font" className="font">
         <header>
           <h1
             style={{
@@ -25,29 +25,23 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: 0,
             }}
           >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
-        </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+            {" "}
+            {post.frontmatter.title}{" "}
+          </h1>{" "}
+          <small> {post.frontmatter.date} </small>{" "}
+          <small> || {post.frontmatter.readingTime} de lectura</small>{" "}
+        </header>{" "}
+         <br/>
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />{" "}
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
-        />
+        />{" "}
         <footer>
           <Bio />
-        </footer>
-      </article>
-
+        </footer>{" "}
+      </article>{" "}
       <nav>
         <ul
           style={{
@@ -59,21 +53,25 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           }}
         >
           <li>
+            {" "}
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+                {" "}
+                ← {previous.frontmatter.title}{" "}
               </Link>
-            )}
-          </li>
+            )}{" "}
+          </li>{" "}
           <li>
+            {" "}
             {next && (
               <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+                {" "}
+                {next.frontmatter.title}→{" "}
               </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+            )}{" "}
+          </li>{" "}
+        </ul>{" "}
+      </nav>{" "}
     </Layout>
   )
 }
@@ -95,6 +93,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        readingTime
+        tags
       }
     }
   }

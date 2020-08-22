@@ -1,9 +1,9 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+title: Mi primer post
+date: "2020-08-18T15:30:32.169Z"
+description: Este es el primer del blog en donde cuento un poco mas sobre mi y de lo que se trata.
 readingTime: "5 min"
-tags: ["personal "]
+tags: ["development ", "python"]
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

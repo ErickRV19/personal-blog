@@ -1,6 +1,8 @@
 ---
 title: My Second Post!
 date: "2015-05-06T23:46:37.121Z"
+readingTime: "2 min"
+tags: ["desarrollo "]
 ---
 
 Wow! I love blogging so much already.

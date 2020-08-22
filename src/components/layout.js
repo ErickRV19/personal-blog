@@ -2,6 +2,29 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import "./styles/layout.css"
+
+let theme = 1
+
+function mode() {
+  if (theme === 1) {
+    document.getElementById("in").className = "dark"
+    document.getElementById("gatsby-focus-wrapper").className = "dark"
+    document.getElementById("font").className = "darkFont"
+    document.getElementById("nav").className = "navDark"
+    document.getElementById("topBar").className = "topBarDark"
+    document.getElementById("info").className = "infoDark"
+    theme = theme - 1
+  } else {
+    document.getElementById("in").className = "light"
+    document.getElementById("gatsby-focus-wrapper").className = "light"
+    document.getElementById("nav").className = "nav"
+    document.getElementById("font").className = "font"
+    document.getElementById("topBar").className = "topBar"
+    document.getElementById("info").className = "info"
+    theme = +1
+  }
+}
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -23,15 +46,15 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
-        </Link>
+          {title}{" "}
+        </Link>{" "}
       </h1>
     )
   } else {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          fontFamily: `Roboto, sans-serif`,
           marginTop: 0,
         }}
       >
@@ -42,27 +65,47 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
-        </Link>
+          {title}{" "}
+        </Link>{" "}
       </h3>
     )
   }
   return (
     <div
+      id="in"
+      className="light"
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        maxWidth: rhythm(30),
+        padding: ` 0em 2em`,
       }}
     >
-      <header>{header}</header>
-      <main>{children}</main>
+      <div id="topBar" className="topBar">
+        {" "}
+      </div>
+      <header id="colorFont" className="font">
+        {" "}
+        {header}{" "}
+      </header>{" "}
+      <nav id="nav" className="nav">
+        <a href="/"> Inicio </a> <a href="/primer%20post/"> Sobre mi </a>{" "}
+        <a href="https://erickrv19.github.io/"> Contacto </a>{" "}
+        <img
+          id="iconTheme"
+          onClick={mode}
+          src={require("../../content/assets/luna.png")}
+          alt="img Erick"
+        />
+      </nav>{" "}
+      <main id="colorFont" className="font">
+        {" "}
+        {children}{" "}
+      </main>{" "}
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+        <div id="info" className="info"></div>
+        <div className="register">Gatsby</div>
+      </footer>{" "}
     </div>
   )
 }
