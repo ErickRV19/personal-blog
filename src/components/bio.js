@@ -61,6 +61,8 @@ const Bio = () => {
         {author.summary}
         {` `}
         <br />
+        Gracias por venir a mi blog.
+        <br />
         <a href={`https://twitter.com/${social.twitter}`}>Sigueme en Twitter</a>
       </p>
     </div>

@@ -11,7 +11,6 @@ import "../components/styles/index.css"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-
   return (
     <Layout location={location} title={siteTitle}>
       <Helmet defer={false}>
@@ -26,8 +25,8 @@ const BlogIndex = ({ data, location }) => {
         />
         <div className="descrip">
           <h1>
-            Bienvenido a mi blog..!
-            <br /> encontraras post muy interesantes.{" "}
+           ¡¡ Bienvenido a mi blog !!
+            <br /> Seguro que encontraras algo interesante.{" "}
           </h1>{" "}
         </div>{" "}
       </div>{" "}
