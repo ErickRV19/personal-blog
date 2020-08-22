@@ -3,7 +3,7 @@ module.exports = {
       title: `El blog de Erick`,
       author: {
           name: `Erick Ruiz`,
-          summary: `Se constante en lo que haces, la suerte existe es el trabajo constante, nunca te rindas.`,
+          summary: `Se constante en lo que haces, nunca te rindas hasta conseguir el objetivo.`,
       },
       description: `A starter blog demonstrating what Gatsby can do.`,
       siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -64,7 +64,7 @@ module.exports = {
               background_color: `#ffffff`,
               theme_color: `#663399`,
               display: `minimal-ui`,
-              icon: `content/assets/escritor.png`,
+              icon: `content/assets/icon-leyendo.png`,
           },
       },
       `gatsby-plugin-react-helmet`,
