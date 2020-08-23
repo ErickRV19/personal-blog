@@ -5,11 +5,19 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import {DiscussionEmbed} from 'disqus-react'
+
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+  
+  const disqusShortName='https-erick-ruiz-blog-netlify-app'
+  const disqusConfig={
+    identifier: data.markdownRemark.id,
+    title:post.title,
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -72,11 +80,26 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>{" "}
         </ul>{" "}
       </nav>{" "}
+      <div className="promo">
+
+      
+      <div className="share">
+        <h3>
+     Comparte el blog.!
+        </h3>
+      </div>
+      <div className="disqus">
+        <h3> 
+        No olvides reaccionar al post y dejar tu comentario, lo estare leyendo.
+        </h3>
+        <DiscussionEmbed shortname={disqusShortName} config={disqusConfig}/>
+      </div>
+      </div>
     </Layout>
   )
 }
-
 export default BlogPostTemplate
+
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {

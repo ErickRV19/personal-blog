@@ -52,6 +52,18 @@ img {
     width: 20vw;
     height: 35vh;
 }
+.disqus{
+    text-align: center;
+}
+.share{
+    text-align: center;
+}
+.promo{
+    background-color: #202542;
+    padding: 1em;
+    color: white;
+    border-radius: 1em;
+}
 
 .btnColor {
     background-color: #202542;
