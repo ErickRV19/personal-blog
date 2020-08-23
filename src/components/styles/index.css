@@ -64,6 +64,10 @@ img {
     color: white;
     border-radius: 1em;
 }
+.share img{
+    width: 4vw;
+    height: 7vh;
+}
 
 .btnColor {
     background-color: #202542;
@@ -80,6 +84,10 @@ img {
     h1 {
         font-size: x-large;
     }
+    .share img{
+        width: 7vw;
+        height: 7vh;
+    }
 }
 
 @media (max-width: 425px) {
@@ -89,6 +97,10 @@ img {
     }
     h1 {
         font-size: x-large;
+    }
+    .share img{
+        width: 7vw;
+        height: 7vh;
     }
 }
 

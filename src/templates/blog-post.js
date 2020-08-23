@@ -18,6 +18,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     identifier: data.markdownRemark.id,
     title:post.title,
   }
+  const baseUrl="https://erick-ruiz-blog.netlify.app"
+  const message=" || Tienes que leer este increible Blog de @Erickrv19"
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -80,21 +82,28 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </li>{" "}
         </ul>{" "}
       </nav>{" "}
+      <hr/>
       <div className="promo">
 
       
       <div className="share">
         <h3>
-     Comparte el blog.!
+     Comparte !!
         </h3>
+        <a href={
+          "http://twitter.com/share?url="+baseUrl 
+        } target="_blank" rel="noopener noreferrer"> <img src={require("../../content/assets/icon-twitter.png")} alt="" srcset="" alt="twitter"/>
+       </a>
+         <a href={
+          "http://www.facebook.com/sharer/sharer.php?u="+baseUrl
+        } target="_blank" rel="noopener noreferrer"> <img src={require("../../content/assets/icon-facebook.png")} alt="" srcset="" alt="facebook"/></a>
+       
       </div>
       <div className="disqus">
-        <h3> 
-        No olvides reaccionar al post y dejar tu comentario, lo estare leyendo.
-        </h3>
         <DiscussionEmbed shortname={disqusShortName} config={disqusConfig}/>
       </div>
       </div>
+      
     </Layout>
   )
 }
