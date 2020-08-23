@@ -20,6 +20,4 @@ Pero este canal no nació así de la nada, la universidad me llevo a subir video
 
 **Pero hace un tiempo ya tenía videos de Ubuntu**
 
-Hace como 5 años grabe de igual forma videos sobre como instalar Ubuntu y los primeros pasos sobre como utilizar este sistema operativo y nunca me anime a subir los videos por pena, pero me dejo una increíble enseñanza, siempre has lo que a ti te apasione sin importar lo que digan los demás, pues ahora ya hago lo que me apasiona esta mi canal y ahora mi blog a demas de Kodbox te lo dejo en este Post. -->
-
-#### [Que es Kodbox](https://erick-ruiz-blog.netlify.app/kodbox/)
+Hace como 5 años grabe de igual forma videos sobre como instalar Ubuntu y los primeros pasos sobre como utilizar este sistema operativo y nunca me anime a subir los videos por pena, pero me dejo una increíble enseñanza, siempre has lo que a ti te apasione sin importar lo que digan los demás, pues ahora ya hago lo que me apasiona esta mi canal y ahora mi blog a demas de Kodbox te lo dejo por aqui [Que es Kodbox](https://erick-ruiz-blog.netlify.app/kodbox/)
