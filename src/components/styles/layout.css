@@ -25,9 +25,17 @@
     height: 5vh;
     margin: 0;
 }
+.myBio a{
+    color: #978d00;
+    box-shadow: none;
+}
 
+.nav a {
+    color: #5e5e5e;
+    box-shadow: none;
+}
 a {
-    color: #636363;
+    color: #002eac;
     box-shadow: none;
 }
 

@@ -123,4 +123,8 @@ img {
     h1 {
         font-size: xx-large;
     }
+    .share img{
+        width: 3vw;
+        height: 6vh;
+    }
 }

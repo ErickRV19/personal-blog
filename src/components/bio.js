@@ -63,7 +63,9 @@ const Bio = () => {
         <br />
         Gracias por venir a mi blog.
         <br />
+        <div className="myBio">
         <a href={`https://twitter.com/${social.twitter}`}>Sigueme en Twitter</a>
+        </div>
       </p>
     </div>
   )
