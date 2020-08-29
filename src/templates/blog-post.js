@@ -20,9 +20,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     title:post.title,
   }
   const baseUrl="https://erick-ruiz-blog.netlify.app"
+  
+  let veces=0;
+  for (let i = 0; i < post.frontmatter.tags.length; i++) {
+    veces+=1;
+  }
+  console.log(veces);
 
   return (
     <Layout location={location} title={siteTitle}>
+      
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -31,7 +38,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
-              marginTop: rhythm(1),
+              marginTop: rhythm(0),
               marginBottom: 0,
             }}
           >
@@ -40,11 +47,15 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h1>{" "}
           <small> {post.frontmatter.date} </small>{" "}
           <small> || {post.frontmatter.readingTime} de lectura</small>{" "}
-          <small> || Categoria: <Link to={`/tags/${kebabCase(post.frontmatter.tags)}/`}>{post.frontmatter.tags}</Link></small>{" "}
+          
+          <small> || Categoria:<Link to={`/tags/${kebabCase(post.frontmatter.tags[post.frontmatter.tags.length-1])}/`}>{post.frontmatter.tags[post.frontmatter.tags.length-1]}</Link>  <Link to={`/tags/${kebabCase(post.frontmatter.tags[post.frontmatter.tags.length-2])}/`}>{post.frontmatter.tags[post.frontmatter.tags.length-2]}</Link>
+            
+            </small>{" "}
           
           
         </header>{" "}
-         <br/>
+    
+         
         <section dangerouslySetInnerHTML={{ __html: post.html }} />{" "}
         <hr
           style={{
@@ -52,7 +63,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           }}
         />{" "}
         <footer>
-          <Bio />
+        <Bio />
         </footer>{" "}
       </article>{" "}
       <nav>
@@ -109,6 +120,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       
     </Layout>
   )
+  
 }
 export default BlogPostTemplate
 

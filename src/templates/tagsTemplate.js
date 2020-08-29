@@ -16,7 +16,7 @@ const Tags = ({ pageContext, data, location }) => {
     <Layout location={location} >
 
     
-    <div className="darkFont">
+    <div className="darkFont" id="font">
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {

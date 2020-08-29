@@ -10,7 +10,7 @@ const TagsPage = ({ data, location }) => {
 
   return (
     <Layout location={location} >
-      <div>
+      <div className="darkFont" id="font">
         <h1>Categorias</h1>
         <p>Ingresa a una categoria para ver todos los artículos.</p>
         <ul>
