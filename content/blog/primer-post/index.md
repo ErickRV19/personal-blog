@@ -3,7 +3,7 @@ title: Mi primer post
 date: "2020-08-18T15:30:32.169Z"
 description: Este es el primer del blog en donde cuento un poco mas sobre mi y de lo que se trata.
 readingTime: "5 min"
-tags: ["development ", "python"]
+tags: ["animals"]
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

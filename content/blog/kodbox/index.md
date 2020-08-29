@@ -6,6 +6,7 @@ date: "2020-09-01T09:09:32.169Z"
 description: Te enseño mi canal de programación en donde nuestro objetivo es apoyar a la comunidad que apenas empieza en la programación.
 
 readingTime: "2 min"
+tags: ["animals", "Chicago", "zoos"]
 ---
 
 ## Canal de programación
