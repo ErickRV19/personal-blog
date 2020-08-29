@@ -3,7 +3,7 @@ title: Mi canal de YouTube
 date: "2020-08-31T09:09:32.169Z"
 description: Te enseño mi canal de YouTube, sobre que trata, cuál es el contenido que subo y una breve historia.
 readingTime: "2 min"
-tags: ["animals", "Chicago", "zoos"]
+tags: ["Personal ", "Youtube"]
 ---
 
 ##Mi canal de YouTube
