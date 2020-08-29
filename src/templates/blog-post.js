@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { kebabCase } from 'lodash';
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -19,7 +20,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     title:post.title,
   }
   const baseUrl="https://erick-ruiz-blog.netlify.app"
-  const message=" || Tienes que leer este increible Blog de @Erickrv19"
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -40,6 +40,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h1>{" "}
           <small> {post.frontmatter.date} </small>{" "}
           <small> || {post.frontmatter.readingTime} de lectura</small>{" "}
+          <small> || Categoria: <Link to={`/tags/${kebabCase(post.frontmatter.tags)}/`}>{post.frontmatter.tags}</Link></small>{" "}
+          
+          
         </header>{" "}
          <br/>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />{" "}

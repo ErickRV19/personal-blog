@@ -89,7 +89,7 @@ const Layout = ({ location, title, children }) => {
         {header}{" "}
       </header>{" "}
       <nav id="nav" className="nav">
-        <a href="/"> Inicio </a> <a href="/primer%20post/"> Sobre mi </a>{" "}
+        <a href="/"> Inicio </a> <a href="/El-blog/"> El blog </a>{" "}
         <a href="https://erickrv19.github.io/"> Contacto </a>{" "}
         <img
           id="iconTheme"
