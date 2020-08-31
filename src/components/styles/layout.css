@@ -95,9 +95,9 @@ a:hover {
         margin: 0;
     }
 }
-@media (min-width: 1444px) {
+@media (min-width: 1144px) {
     #iconTheme {
-        width: 4vw;
+        width: 3vw;
         height: 4vh;
         margin: 0;
     }
