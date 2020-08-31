@@ -5,7 +5,7 @@ module.exports = {
           name: `Erick Ruiz`,
           summary: `Sé constante en lo que haces, nunca te rindas hasta conseguir el objetivo.`,
       },
-      description: `A starter blog demonstrating what Gatsby can do.`,
+      description: `En el blog de Erick, encontraras grandes articulos para leer.`,
       siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
       social: {
           twitter: `ErickRV19`,

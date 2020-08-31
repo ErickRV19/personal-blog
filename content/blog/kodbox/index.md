@@ -1,7 +1,7 @@
 ---
 title: Que es Kodbox
 
-date: "2020-09-01T09:09:32.169Z"
+date: "2020-08-31T09:09:32.169Z"
 
 description: Te enseño mi canal de programación en donde nuestro objetivo es apoyar a la comunidad que apenas empieza en la programación.
 

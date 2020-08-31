@@ -1,6 +1,6 @@
 ---
 title: Técnica pomodoro
-date: "2020-08-30T05:30:32.169Z"
+date: "2020-09-01T00:30:32.169Z"
 description: La técnica que me ha ayudado a ser más cosas en el día aprovechando el tiempo invertido de mejor forma, y a ser más productivo
 readingTime: "7 min"
 tags: ["Productividad"]
@@ -54,7 +54,7 @@ Cuando concluyas 4 pomodoros toma un descanso de 20 min y vuelve a retomar el tr
 
 Te dejo una imagen para entender esto mejor
 
-![tomate]()
+![tomate](/TecnicaPomodoro.jpg)
 
 Esta técnica si la aplicas bien trabajando en completa concentración enfocándote en el objetivo que quieres cumplir puedes ahorrar mucho tiempo, aplícala cada día busca un balance que te ayude a tener más tiempo para tu vida.
 
