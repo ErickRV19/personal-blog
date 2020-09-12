@@ -1,6 +1,6 @@
 ---
 title: Mi canal de YouTube
-date: "2020-08-31T09:09:32.169Z"
+date: "2020-09-04T09:09:32.169Z"
 description: Te enseño mi canal de YouTube, sobre que trata, cuál es el contenido que subo y una breve historia.
 readingTime: "2 min"
 tags: ["Personal ", "Youtube"]
@@ -13,7 +13,7 @@ Hola de nuevo, hoy te mostraré un poco sobre lo que me gusta compartir y que co
 Primero que nada te dejo mi canal por si quieres visitarlo y ver el contenido tengo buenos videos para que vayas conociendo un poco más otro sistema operativo.
 
 ![mi canal](./channel youtube.png)
-#### checa el  canal ->> [aprende Linux con Erick](https://www.youtube.com/channel/UCGLuuccCgpbBrPB_NBD1FGw)
+#### checa el  canal ->> [Linux con Erick](https://www.youtube.com/channel/UCGLuuccCgpbBrPB_NBD1FGw)
 
 Mi canal se llama __prende linux con Erick__, el tema central como puedes imaginarte es LINUX y en especial ocupamos Ubuntu para conocer linux de una manera más amigable. Llevo algún tiempo utilizando linux como sistema operativo principal de mi laptop y decidí que puedo ayudar a usuarios a decidirse a cambiarse de sistema operativo.
 

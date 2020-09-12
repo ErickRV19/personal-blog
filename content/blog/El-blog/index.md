@@ -1,6 +1,6 @@
 ---
 title: El blog
-date: "2020-08-26T15:30:32.169Z"
+date: "2020-08-31T15:30:32.169Z"
 description: Sobre que trata el blog, las tematicas que tendra y donde dejar tus comentarios.
 readingTime: "2 min"
 tags: ["Blog"]

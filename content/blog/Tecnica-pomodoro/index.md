@@ -1,6 +1,6 @@
 ---
 title: Técnica pomodoro
-date: "2020-09-01T00:30:32.169Z"
+date: "2020-09-11T00:30:32.169Z"
 description: La técnica que me ha ayudado a ser más cosas en el día aprovechando el tiempo invertido de mejor forma, y a ser más productivo
 readingTime: "7 min"
 tags: ["Productividad"]

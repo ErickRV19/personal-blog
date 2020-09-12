@@ -1,6 +1,6 @@
 ---
 title: Añade el blog a tu movil 
-date: "2020-08-26T12:30:32.169Z"
+date: "2020-09-01T12:30:32.169Z"
 description: Puedes descargar el blog como app en tu teléfono, podrás verlo en cualquier momento y leer todos los artículos sin internet.
 readingTime: "4 min"
 tags: ["Blog"]

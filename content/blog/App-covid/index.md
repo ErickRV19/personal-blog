@@ -1,7 +1,7 @@
 ---
 title: App de covid
 
-date: "2020-08-30T05:30:32.169Z"
+date: "2020-09-08T05:30:32.169Z"
 
 description: Te muestro mi página de covid en donde se muestran los consejos para evitarlo así como los números de contagios al día, gráficas y más.
 
