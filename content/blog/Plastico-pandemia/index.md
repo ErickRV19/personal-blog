@@ -10,7 +10,9 @@ tags: ["Covid-19","Pandemia"]
 En los últimos meses no podemos negar que el plástico ha aumentado su consumo y por lo consiguiente su producción, lo más común es ver a las personas caminar por la calle con cubrebocas y con careta o **no pero eso es otro tema**.
 
 **El tema central de este artículo es ver cantidades y dar un panorama general del daño al medio ambiente que está generando la actual pandemia.**
+
 ![Banner](/plasticos.png)
+
 Para el 2020 varios países tenían pronósticos y promesas de reducir el plástico generado en sus países, muchos de estos plásticos de un solo uso por ejemplo:
 
 > Tailandia, que había prohibido las bolsas de plástico desechables en las principales tiendas en enero y planeaba recortar los desechos de plástico en 2020, ahora espera ver que aumente hasta en un 30%. Bangkok sólo consumió 62% más de plástico en abril que 12 meses antes, la mayor parte contaminó los envases de alimentos que no se reciclan fácilmente, según el Instituto de Medio Ambiente de Tailandia.
